@@ -1,6 +1,7 @@
 {
-  "sdk": {
-    "version": "9.0.100",
-    "rollForward": "latestFeature"
-  }
+    "sdk": {
+        "version": "9.0.100",
+        "rollForward": "latestFeature"
+    }
 }
+& "C:\Users\Adol\AppData\Local\Programs\Thonny\python.exe" .\ss14_wrapper.py

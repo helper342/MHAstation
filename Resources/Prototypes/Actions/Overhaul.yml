@@ -1,0 +1,14 @@
+# Overhaul Quirk Action Prototype
+# - type: entity
+#   parent: BaseAction
+#   id: OverhaulQuirkAction
+#   name: Overhaul
+#   description: Use the Overhaul quirk to damage or heal with a touch.
+#   components:
+#   - type: Action
+#     useDelay: 5
+#     icon: Interface/Actions/overhaul.png
+#     itemIconStyle: NoItem
+#     priority: -10
+#   - type: InstantAction
+#     event: !type:OverhaulQuirkAction

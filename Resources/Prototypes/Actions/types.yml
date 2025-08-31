@@ -147,6 +147,23 @@
   - type: InstantAction
     event: !type:OpenStorageImplantEvent
 
+
+# Overhaul Quirk Action Registration
+- type: entity
+  parent: BaseAction
+  id: OverhaulQuirkAction
+  name: Overhaul
+  description: Use the Overhaul quirk to damage or heal with a touch.
+  components:
+  - type: Action
+    useDelay: 5
+    icon: Interface/Actions/scream.png
+    itemIconStyle: NoItem
+    priority: -10
+  - type: WorldTargetAction
+    event: !type:Content.Shared.Overhaul.OverhaulQuirkActionEvent
+# End Overhaul Quirk Action Registration
+
 - type: entity
   parent: [BaseSuicideAction, BaseImplantAction]
   id: ActionActivateMicroBomb
